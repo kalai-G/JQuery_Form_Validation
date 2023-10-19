@@ -1,0 +1,76 @@
+.container{
+    border: solid 1px #00ffff1f;
+    font-size: 20px;
+    text-align: center;
+    background-color: #00ffff17;
+    border-radius: 5rem;
+    margin:4rem 4rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+    }
+    label{
+       display: inline-block;
+       text-align:left;
+       margin: right 10px;
+       width:140px;
+    }
+    .gender{
+        margin-left: 79px;
+        width: 25px;
+    }
+    
+    .button {
+      background-color:#b22222bf;
+      border: none;
+      color: white;
+      padding: 7px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 14px 2px;
+      cursor: pointer;
+      border-radius:44%;
+      }
+      body{
+        overflow:hidden; 
+        background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(20).jpg");
+       
+    
+    }
+    form{
+    padding-top: 0rem;
+    box-sizing: border-box;
+    padding-left: 15rem;
+    padding-right: 15rem;
+    
+    }a:hover {
+    background-color: #b22222;
+    }
+    .button:hover{
+    background-color: #b22222; 
+    }
+    
+    input{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        width: 50%;
+        height: 35;
+        padding: 5px;
+        border-color:white;
+        margin-bottom: 10px;
+        
+    }
+    .border-Err{
+      border: red solid 2px  !important;
+    }
+    .error{
+      color: red;
+      font-size: 15px;
+     
+    }
+    input:focus{
+      outline:none;
+      border-color: blue;
+    }
+    

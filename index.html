@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+    
+     <!-- Script -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+
+     <script src="query.js">
+     </script>
+     <!-- JQ -->
+    
+</head>
+<body>
+    <form   method="post">
+        <div  class="container">
+            <h2>Form</h2>
+            <label  >First name</label>
+            <input  type="text" id="fname" name="fname">
+            <div class="error" id="fnameErr"></div>
+            <label for="lname">Last name</label>
+            <input   type="text" id="lname"  name="lname" >
+            <div class="error" id="lnameErr"></div>
+
+            <label>Gender</label>
+            <input type="radio" id="Female" class="gender" name="gender" >Female        
+            <input type="radio" id="male" class="gender" name="gender" >Male
+            <div class="error" id="genderErr"></div>
+            <label for="email">Email</label>
+            <input type="text" id="email"  name="email">
+            <div class="error" id="emailErr"></div>
+            <label for="number">Mobile Number</label>
+            <input type="text" id="number" name="number" >
+            <div class="error" id="numberErr"></div>
+            <label for="address">City</label>
+            <input type="text" id="city"  name="city" >
+            <div class="error" id="cityErr"></div>
+            <label for="code">Pincode</label>
+            <input type="text" id="code"  name="code" >
+            <div class="error" id="codeErr"></div>
+            <input class="button" id="reg" type="button" name="submit"  value="submit">         
+          </form>
+        </div> 
+    </form>    
+    
+    
+    
+</body>
+</html>
